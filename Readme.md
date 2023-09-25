@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Вадим Пинягин](https://up.htmlacademy.ru/htmlcss/38/user/2388439).
-* Наставник: `[Анна Лисененкова](https://htmlacademy.ru/profile/ankhena)`.
+* Наставник: [Анна Лисененкова](https://htmlacademy.ru/profile/ankhena).
 
 ---
 
