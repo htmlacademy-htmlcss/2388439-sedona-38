@@ -47,18 +47,26 @@
             <a href="index.html">Гостиницы</a>
           </li>
         </ul>
-        <fieldset>
-          <legend>Инфрстуктура:</legend>
-          <label><input type="checkbox" name="pool" checked value="Бассейн">Бассейн</label>
-          <label><input type="checkbox" name="parking" checked value="Парковка">Парковка</label>
-          <label><input type="checkbox" name="wi-fi" value="Wi-Fi">Wi-Fi</label>
-        </fieldset>
-        <fieldset>
-          <legend>Тип жилья:</legend>
-          <label><input type="radio" name="" checked value="Гостиница">Гостиница</label>
-          <label><input type="radio" name="" value="Мотель">Мотель</label>
-          <label><input type="radio" name="" value="Апартаменты">Апартаменты</label>
-        </fieldset>
+        <form action="#" method="get">
+          <fieldset>
+            <legend>Инфрстуктура:</legend>
+            <label><input type="checkbox" name="pool" checked value="Бассейн">Бассейн</label>
+            <label><input type="checkbox" name="parking" checked value="Парковка">Парковка</label>
+            <label><input type="checkbox" name="wi-fi" value="Wi-Fi">Wi-Fi</label>
+          </fieldset>
+          <fieldset>
+            <legend>Тип жилья:</legend>
+            <label><input type="radio" name="" checked value="Гостиница">Гостиница</label>
+            <label><input type="radio" name="" value="Мотель">Мотель</label>
+            <label><input type="radio" name="" value="Апартаменты">Апартаменты</label>
+          </fieldset>
+          <fieldset>
+            <legend>Стоимость,<span>₽:</span></legend>
+            <label>от<input type="text" value="0"></label>
+            <label>до<input type="text" value="9000"></label>
+            <progress value="0" max="9000"></progress>
+          </fieldset>
+        </form>
       </section>
       <section class="catalog">
         <h2 class="visually-hidden">Результат поиска.</h2>
