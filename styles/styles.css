@@ -18,4 +18,68 @@
 
 body {
   font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color:#333333;
+  background-color: #F2F2F2;
+}
+
+.list-reset {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.page-header{
+ background-color: #ffffff;
+
+}
+.navigation-link{
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  color:#000000;
+  text-decoration: none;
+}
+
+.hero{
+  background-image: url(../images/background-welcome.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+
+.advantages-description,.services-description{
+  background-color: #ffffff;
+}
+
+.advantages-description-title, .services-description-title{
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+.advantages-description-text, .services-description-text{
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.advantages-list h3{
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  color:#000000;
+}
+
+.advantages-list p{
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+}
+
+
+.advantages-item-image{
+  background-color: #82B3D3;
+
 }
