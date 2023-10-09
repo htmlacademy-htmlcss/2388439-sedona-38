@@ -31,10 +31,29 @@ body {
   list-style: none;
 }
 
+.visually-hidden{
+  visibility: hidden;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  white-space: nowrap;
+}
+
+.counter{
+  width: 20px;
+  height: 20px;
+
+  background-color: #7DB54F;
+  font-size: 10px;
+  line-height: 10px;
+  color: #ffffff;
+  padding: 5px;
+}
+
 .page-header{
  background-color: #ffffff;
-
 }
+
 .navigation-link{
   font-size: 20px;
   font-weight: 700;
@@ -43,13 +62,52 @@ body {
   text-decoration: none;
 }
 
+.button-link-basic{
+  background-color: #756157;
+  border-radius: 4px;
+  color:#ffffff;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  text-decoration: none;
+  text-transform: uppercase;
+
+}
+
 .hero{
   background-image: url(../images/background-welcome.jpg);
   background-repeat: no-repeat;
-  background-size: 100% auto;
+  width: 1200px;
+  height: 485px;
+  display: block;
 }
 
-.advantages-description,.services-description{
+.divider{
+  background-image: url(../images/divider.svg);
+  width: 1200px;
+  height: 57px;
+  display: block;
+}
+
+.navigation-link-search{
+  background-image: url(../images/icon-search.svg);
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 20px;
+}
+
+.navigation-link-favorites{
+  background-image: url(../images/icon-heart.svg);
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 20px;
+}
+
+.advantages h2, h3{
+  text-transform: uppercase;
+}
+
+.advantages-description,.services-description {
   background-color: #ffffff;
 }
 
@@ -57,7 +115,6 @@ body {
   font-size: 30px;
   font-weight: 700;
   line-height: 36px;
-  text-transform: uppercase;
 }
 
 .advantages-description-text, .services-description-text{
@@ -78,8 +135,115 @@ body {
   line-height: 21px;
 }
 
+.advantages-image{
+  display:block;
+}
+
 
 .advantages-item-image{
   background-color: #82B3D3;
+  color:#ffffff;
 
+}
+
+.advantages-item-image h3{
+  color:#ffffff;
+
+}
+
+.search{
+  background-color: #ffffff;
+}
+
+.search-title{
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+}
+
+.subscribe{
+  background-image: url(../images/background-subscribe.jpg);
+  width: 1200px;
+  height: 415px;
+  color:#ffffff;
+}
+
+.subscribe-title{
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+}
+
+.search-item-text{
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.subscribe-item-text{
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.field{
+  width: 452px;
+  height: 52px;
+  font-family: "PT Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.subscribe-button{
+  width: 232px;
+  height: 52px;
+  background-color: #82B3D3;
+  font-family: PT Sans;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 36px;
+  text-transform: uppercase;
+  color:#ffffff;
+}
+
+.social-link-vk,.social-link-telegram,.social-link-youtube{
+  width: 47px;
+  height: 40px;
+  display: block;
+  background-repeat: no-repeat;
+}
+
+.social-link-vk{
+  background-image: url(../images/icon-vk.svg);
+}
+
+.social-link-telegram{
+  background-image: url(../images/icon-telegram.svg);
+}
+
+.social-link-youtube{
+  background-image: url(../images/icon-youtube.svg);
+}
+
+.telephone-number{
+
+  font-size: 40px;
+  line-height: 40px;
+  color: #000000;
+  text-decoration: none;
+  display: block;
+}
+
+.developer{
+  width: 115px;
+  height: 33px;
+  background-image: url(../images/logo-htmlacademy.svg);
+  display: block;
+}
+
+/* Страница Каталога */
+
+.filter{
+  width: 1200px;
+  height: 412px;
+  background-image: url(../images/background-filter.jpg);
 }
