@@ -56,13 +56,13 @@
 
           <ul class="list-reset breadcrumbs">
             <li class="breadcrumbs-item">
-              <a class="breadcrumbs-link" href="index.html">
+              <a class="breadcrumbs-link breadcrumbs-link-home" href="index.html">
                 <span class="visually-hidden">На главную страницу</span>
               </a>
             </li>
 
             <li class="breadcrumbs-item">
-              <a class="breadcrumbs-link breadcrumbs-link-current" tabindex="-1"  href="catalog.html">Гостиницы</a>
+              <a class="breadcrumbs-link breadcrumbs-link-catalog breadcrumbs-link-current" tabindex="-1"  href="catalog.html">Гостиницы</a>
             </li>
           </ul>
 
@@ -114,14 +114,14 @@
 
             <fieldset>
               <legend class="filter-legend">Стоимость,<span>₽:</span></legend>
-                <label for="min-price">от</label>
-                <input type="number" value="0" id="min-price" placeholder="0" min="0" max="9000">
-                <label for="max-price">до</label>
-                <input type="number" value="9000" id="max-price" placeholder="9000" min="1" max="9000">
+                <label for="min-price" class="min-price">от</label>
+                <input type="number" value="0" id="min-price" class="input-price" placeholder="0" min="0" max="9000">
+                <label for="max-price" class="max-price">до</label>
+                <input type="number" value="9000" id="max-price" class="input-price" placeholder="9000" min="1" max="9000">
             </fieldset>
 
-              <button type="submit">Применить</button>
-              <button type="button">Сбросит</button>
+              <button type="submit" class="apply-button">Применить</button>
+              <button type="button" class="reset-button">Сбросит</button>
           </form>
 
         </section>
